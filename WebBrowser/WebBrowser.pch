@@ -1,0 +1,28 @@
+//
+//  WebBrowser.pch
+//  WebBrowser
+//
+//  Created by Panda on 16/7/29.
+//  Copyright © 2016年 Panda. All rights reserved.
+//
+
+#ifndef WebBrowser_pch
+#define WebBrowser_pch
+
+#import <UIKit/UIKit.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+#import "MacroMethod.h"
+#import "MacroConstants.h"
+#import "UIView+ZWUtility.h"
+#import "ZWUtility.h"
+#import "DelegateManager.h"
+
+#if DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelError;
+#endif
+
+
+#endif /* WebBrowser_pch */
