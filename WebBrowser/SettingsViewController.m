@@ -217,7 +217,7 @@ static NSString * const CellId = @"SettingsMenuCell";
         cell.textLabel.attributedText = item.attributedText;
     }
     cell.imageView.image = item.image;
-    
+    cell.selectedBackgroundView.backgroundColor = [UIColor clearColor];
     return cell;
 }
 

@@ -43,7 +43,7 @@
     [super tintColorDidChange];
     self.textLabel.textColor = self.tintColor;
     self.selectedBackgroundView.backgroundColor = self.tintColor;
-    self.textLabel.highlightedTextColor = [self inversedTintColor];
+//    self.textLabel.highlightedTextColor = [self inversedTintColor];
 }
 
 - (void)setSelected:(BOOL)selected
